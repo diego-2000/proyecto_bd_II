@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>uacmbd_II_Covid_19</title>
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script src="https://code.highcharts.com/modules/exporting.js"></script>
 	<script src="https://code.highcharts.com/modules/export-data.js"></script>
@@ -86,25 +86,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 
 	<div id="container"></div>
+    
+    <?php
+        //print_r($resultado);
+    
+        // foreach($resultado->result() as $file){
+        //     echo $file->id;
+        // }
 
+    ?> 
 
-<div id="container">
-	<h1>Hola fer</h1>
-
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
 
 </body>
 </html>
@@ -116,7 +107,7 @@ var dataPrev = {
         ['Japan', 0],
         ['Australia', 0],
         ['Germany', 11],
-        ['Russia', 24],
+        ['Russia', 24], 
         ['China', 38],
         ['Great Britain', 29],
         ['United States', 46]
